@@ -2,7 +2,7 @@
 services:
   pihole-unbound:
     container_name: pihole-unbound
-    image: mpgirro/pihole-unbound:latest
+    image: williamr288/pihole-unbound:latest
     hostname: ${HOSTNAME}
     domainname: ${DOMAIN_NAME}
     ports:
